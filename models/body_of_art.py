@@ -1,6 +1,8 @@
-from diss_this_track import DissThisTrack
-from person import Person
-from comment_section import CommentSection
+from __future__ import annotations
+
+from models.diss_this_track import DissThisTrack
+from models.person import Person
+from models.comment_section import CommentSection
 
 from datetime import datetime
 from typing import List

@@ -1,6 +1,6 @@
-from body_of_art import BodyOfArt
-from person import Person
-from track import Track
+from models.body_of_art import BodyOfArt
+from models.person import Person
+from models.track import Track
 
 from datetime import datetime
 from typing import List

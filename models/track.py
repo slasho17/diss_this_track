@@ -1,6 +1,6 @@
-from body_of_art import BodyOfArt
-from artist import Artist
-from album import Album
+from models.body_of_art import BodyOfArt
+from models.artist import Artist
+from models.album import Album
 
 from datetime import datetime
 from typing import List

@@ -1,9 +1,10 @@
-from diss_this_track import DissThisTrack
-from comment_section import CommentSection
-from person import Person
+from __future__ import annotations
+
+from models.diss_this_track import DissThisTrack
+from models.comment_section import CommentSection
+from models.person import Person
 
 from typing import List
-from __future__ import annotations
 
 class Comment(DissThisTrack):
     def __init__(self, author: Person, comment_section: CommentSection, comment_text: str, number_of_stars: float):

@@ -1,6 +1,6 @@
-from person import Person
-from album import Album
-from genre import Genre
+from models.person import Person
+from models.album import Album
+from models.genre import Genre
 
 from typing import List
 from datetime import datetime

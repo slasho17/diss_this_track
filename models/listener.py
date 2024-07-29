@@ -1,5 +1,5 @@
-from person import Person
-from playlist import Playlist
+from models.person import Person
+from models.playlist import Playlist
 
 from typing import List
 from datetime import datetime

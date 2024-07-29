@@ -1,8 +1,9 @@
-from diss_this_track import DissThisTrack
-from comment import Comment
-from comment_section import CommentSection
-from body_of_art import BodyOfArt
 from __future__ import annotations
+
+from models.diss_this_track import DissThisTrack
+from models.comment import Comment
+from models.comment_section import CommentSection
+from models.body_of_art import BodyOfArt
 
 from typing import List
 from datetime import datetime

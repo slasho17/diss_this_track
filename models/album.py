@@ -1,7 +1,8 @@
-from body_of_art import BodyOfArt
-from person import Person
-from track import Track
-from genre import Genre
+
+from models.body_of_art import BodyOfArt
+from models.person import Person
+from models.track import Track
+from models.genre import Genre
 
 from datetime import datetime
 from typing import List

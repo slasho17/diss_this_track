@@ -1,6 +1,6 @@
-from diss_this_track import DissThisTrack
-from body_of_art import BodyOfArt
-from comment import Comment
+from models.diss_this_track import DissThisTrack
+from models.body_of_art import BodyOfArt
+from models.comment import Comment
 
 from typing import List
 
